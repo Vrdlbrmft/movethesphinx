@@ -161,8 +161,8 @@ def process_nodes(app, doctree, fromdocname):
             back_reference = create_back_reference(app, fromdocname, node_info)
             content.extend((title, node_info["best_practice"], back_reference))
         node.replace_self(content)
-    create_xls_checklist(app, env)
-
+    if app.builder.name == 'html':
+        create_xls_checklist(app, env)
 
 def create_xls_checklist(app, env):
     description = []
