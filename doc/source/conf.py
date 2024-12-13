@@ -148,6 +148,7 @@ htmlhelp_basename = "Logprepdoc"
 latex_elements = {
     'preamble': r'''
         \usepackage[columns=1]{idxlayout}
+        \usepackage[scaled=0.92]{helvet}
         \renewcommand{\rmdefault}{phv}
         \renewcommand{\sfdefault}{phv}
         \renewcommand{\familydefault}{\sfdefault}  % Set default font family to sans-serif
