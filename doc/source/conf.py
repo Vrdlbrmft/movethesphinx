@@ -146,7 +146,6 @@ htmlhelp_basename = "Logprepdoc"
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
-    'papersize': 'a4paper',
     'preamble': r'''
         \usepackage[columns=1]{idxlayout}
         \usepackage[scaled=0.92]{helvet}
